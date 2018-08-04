@@ -1,9 +1,11 @@
-Maven Demo
-==========
+Maven Kotlin Demo
+=================
 
-A very simple maven project demo.
+配置`pom.xml`使得Maven可以编译Kotlin代码。
+
+虽然可以运行，但是感觉比gradle麻烦很多。
 
 ```
-mvn clean install
+mvn compile exec:java
 ```
 
